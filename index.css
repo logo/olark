@@ -1,18 +1,2 @@
-
-/**
- * Olark
- */
-
-.logo[data-logo="Olark"] {
-  width: 1.797737161em;
-  /* (384.45/245.93) * (1+.15) */
-}
-
-.logo[data-logo="Olark"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 -.15em 0;
-}
-
-.logo[data-logo="Olark"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
